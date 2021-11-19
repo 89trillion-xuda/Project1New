@@ -13,7 +13,6 @@ using Image = UnityEngine.UI.Image;
 /// </summary>
 public class CoinFlyAnimitionController : MonoBehaviour
 {
-
     //传进来的金币克隆对象
     [SerializeField]private GameObject CoinFlyObjClone;
     //传进来的开箱特效对象
