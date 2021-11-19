@@ -10,71 +10,35 @@ using Button = UnityEngine.UIElements.Button;
 /// </summary>
 public class ViewSkipController : MonoBehaviour
 {
-    //定义全局变量，用于全局使用
-    private GameObject sellBeginPanel;
-    private GameObject sellRootPanel;
-    //private GameObject PopupsPanel;
-
-    public GameObject CurrentObject;
-
-
-    private void Awake()
-    {
-        //为 开始画板 和 商店画板 两个界面 初始化 获得对象
-        sellBeginPanel = GameObject.Find("SellBeginPanel");
-        sellRootPanel = GameObject.Find("SellRootPanel");
-        //为 弹窗 初始化 获得对象
-        //PopupsPanel = GameObject.Find("PopupsPanel");
-    }
+    //获得开始界面面板
+    [SerializeField] private GameObject sellBeginPanel;
+    //获得商店界面面板
+    [SerializeField] private GameObject sellRootPanel;
+    //获得购买按钮
+    [SerializeField] private GameObject SellSpendBtn;
     
     //进入商店方法
-    public void enterShop()
+    public void EnterShop()
     {
+        //开始界面画板不显示
         sellBeginPanel.SetActive(false);
+        //商店界面画板显示
         sellRootPanel.SetActive(true);
-        //PopupsPanel.SetActive(false);
     }
     
     //退出商店方法
-    public void outShop()
+    public void OutShop()
     {
+        //开始界面画板显示
         sellBeginPanel.SetActive(true);
+        //商店界面画板不显示
         sellRootPanel.SetActive(false);
     }
     
     //购买按钮监听方法
-    public void popUps()
+    public void PopUps()
     {
-        //打开选择确定的弹窗
-        //PopupsPanel.SetActive(true);
-        
-        //分配当前游戏对象为 本对象
-        CurrentObject = transform.gameObject;
-        //实例化当前游戏对象
-        //GameObject CurrentObj = GameObject.Instantiate(CurrentObject,transform) as GameObject;
-
-        //获得当前游戏对象的子对象集合
-        Transform[] ts = CurrentObject.GetComponentsInChildren<Transform>();
-        for (int i = 0; i < ts.Length; i++)
-        {
-            //找到购买按钮，购买完成后，隐藏购买按钮
-            if (ts[i].name.Equals("SellSpendBtn"))
-            {
-                Debug.Log(ts[i].name);
-                ts[i].gameObject.SetActive(false);
-            }
-        }
+        //购买按钮不显示
+        SellSpendBtn.SetActive(false);
     }
-
-    /*//确定购买方法
-    public void sure()
-    {
-        //隐藏弹窗
-        PopupsPanel.SetActive(false);
-    }
-    //取消购买方法
-    public void back()
-    {
-        PopupsPanel.SetActive(false);
-    }*/
 }

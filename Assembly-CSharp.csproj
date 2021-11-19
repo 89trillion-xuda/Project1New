@@ -59,11 +59,11 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Function1\02.Scripts\Controller\CoinFlyAnimitionController.cs" />
-     <Compile Include="Assets\Function1\02.Scripts\Controller\Test.cs" />
      <Compile Include="Assets\Function1\02.Scripts\Controller\ViewSkipController.cs" />
      <Compile Include="Assets\Function1\02.Scripts\Model\DailyProduct.cs" />
      <Compile Include="Assets\Function1\02.Scripts\Model\GetDailyProducts.cs" />
      <Compile Include="Assets\Function1\02.Scripts\Model\RewardType.cs" />
+     <Compile Include="Assets\Function1\02.Scripts\View\ProductManager.cs" />
      <Compile Include="Assets\Function1\02.Scripts\View\ShowProduct.cs" />
      <Compile Include="Assets\Function1\05.Plugs\DOTween\Modules\DOTweenModuleAudio.cs" />
      <Compile Include="Assets\Function1\05.Plugs\DOTween\Modules\DOTweenModuleEPOOutline.cs" />
@@ -73,6 +73,10 @@
      <Compile Include="Assets\Function1\05.Plugs\DOTween\Modules\DOTweenModuleUI.cs" />
      <Compile Include="Assets\Function1\05.Plugs\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
      <Compile Include="Assets\Function1\05.Plugs\DOTween\Modules\DOTweenModuleUtils.cs" />
+     <Compile Include="Assets\Function1\05.Plugs\SimpleJSON-master\SimpleJSON.cs" />
+     <Compile Include="Assets\Function1\05.Plugs\SimpleJSON-master\SimpleJSONBinary.cs" />
+     <Compile Include="Assets\Function1\05.Plugs\SimpleJSON-master\SimpleJSONDotNetTypes.cs" />
+     <Compile Include="Assets\Function1\05.Plugs\SimpleJSON-master\SimpleJSONUnity.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -125,6 +129,7 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\Function1\05.Plugs\SimpleJSON-master\Changelog.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />

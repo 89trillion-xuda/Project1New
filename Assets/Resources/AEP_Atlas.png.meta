@@ -4,7 +4,7 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -3773995664966322707
-    second: AEP_Atlas_0
+    second: AEP_Atlas_3
   - first:
       213: -30645784461638500
     second: AEP_Atlas_1
@@ -13,7 +13,7 @@ TextureImporter:
     second: AEP_Atlas_2
   - first:
       213: -4759598359583354153
-    second: AEP_Atlas_3
+    second: AEP_Atlas_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -123,10 +123,10 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AEP_Atlas_0
+      name: AEP_Atlas_3
       rect:
         serializedVersion: 2
-        x: 0
+        x: 3
         y: 129
         width: 413
         height: 345
@@ -186,7 +186,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AEP_Atlas_3
+      name: AEP_Atlas_0
       rect:
         serializedVersion: 2
         x: 522

@@ -2,40 +2,51 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DailyProduct : MonoBehaviour
+/// <summary>
+/// 每日精选 的 商品实体类
+/// </summary>
+public class DailyProduct/* : MonoBehaviour*/
 {
-    // Start is called before the first frame update
-    void Start()
+    private int productId;
+    private int type;
+    private int subType;
+    private int num;
+    private int costGold;
+    private int isPurchased;
+
+    public int ProductId
     {
-        
+        get => productId;
+        set => productId = value;
     }
 
-    // Update is called once per frame
-    void Update()
+    public int Type
     {
-        
+        get => type;
+        set => type = value;
     }
-    
-    /// <summary>
-    /// 作为json读取的中间数据结构，用来装载json内容
-    /// </summary>
-    public class dailyProducts
+
+    public int SubType
     {
-        public List<dailyProduct> dailyProduct;
+        get => subType;
+        set => subType = value;
     }
-    
-    /// <summary>
-    /// 商店售卖物品信息数据
-    /// </summary>
-    //增加序列化特性，防止出错
-    [System.Serializable]
-    public class dailyProduct
+
+    public int Num
     {
-        public int productId;
-        public int type;
-        public int subType;
-        public int num;
-        public int costGold;
-        public int isPurchased;
+        get => num;
+        set => num = value;
+    }
+
+    public int CostGold
+    {
+        get => costGold;
+        set => costGold = value;
+    }
+
+    public int IsPurchased
+    {
+        get => isPurchased;
+        set => isPurchased = value;
     }
 }
