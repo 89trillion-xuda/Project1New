@@ -74,7 +74,7 @@
 
 - 控制视图跳转的ViewSkipController.cs脚本代码逻辑：
 
-<img src="https://github.com/89trillion-xuda/Project1New/blob/master/Assets/ReadMeImage/ViewSkipController.cs%20(1).png" style="zoom:80%;" />
+<img src="https://github.com/89trillion-xuda/Project1New/blob/master/Assets/ReadMeImage/ViewSkipController.cs%20(1)png.png" style="zoom:80%;" />
 
 
 
