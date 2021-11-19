@@ -74,19 +74,19 @@
 
 - 控制视图跳转的ViewSkipController.cs脚本代码逻辑：
 
-<img src="/Users/xuda/Desktop/流程图图片/project1/ViewSkipController.cs (1).png" alt="ViewSkipController.cs (1)" style="zoom:80%;" />
+<img src="https://github.com/89trillion-xuda/Project1New/blob/master/Assets/ReadMeImage/ViewSkipController.cs%20(1).png" style="zoom:80%;" />
 
 
 
 - 控制商品信息展示的ShowProduct.cs脚本代码逻辑：
 
-<img src="/Users/xuda/Desktop/流程图图片/project1/ShowProduct.cs (1).png" alt="ShowProduct.cs (1)" style="zoom:80%;" />
+<img src="https://github.com/89trillion-xuda/Project1New/blob/master/Assets/ReadMeImage/ShowProduct.cs%20(1).png" style="zoom:80%;" />
 
 
 
 - 控制飞金币动画的CoinFlyAnimitionController.cs脚本代码逻辑：
 
-<img src="/Users/xuda/Desktop/流程图图片/project1/CoinFLyAnimitionController.cs (1).png" alt="CoinFLyAnimitionController.cs (1)" style="zoom:80%;" />
+<img src="https://github.com/89trillion-xuda/Project1New/blob/master/Assets/ReadMeImage/CoinFLyAnimitionController.cs%20(1).png" style="zoom:80%;" />
 
 
 
