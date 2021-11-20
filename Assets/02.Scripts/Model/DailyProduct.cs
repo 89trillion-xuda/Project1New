@@ -5,7 +5,7 @@ using UnityEngine;
 /// <summary>
 /// 每日精选 的 商品实体类
 /// </summary>
-public class DailyProduct/* : MonoBehaviour*/
+public class DailyProduct
 {
     private int productId;
     private int type;

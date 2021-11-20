@@ -12,7 +12,7 @@ using SimpleJSON;
 /// 数据准备：
 /// 通过SimpleJson解析json格式的商品数据，存储在List类型的 DailyProductss 中
 /// </summary>
-public class GetDailyProducts /*: MonoBehaviour*/
+public class GetDailyProducts
 {
     public static List<DailyProduct> DailyProductss = new List<DailyProduct>();
 

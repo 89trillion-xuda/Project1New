@@ -694,7 +694,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CoinObjectClone: {fileID: 7082713112234164215, guid: 8c4ba8c2ddddd46059e43827e39d8fa7,
     type: 3}
-  productManager: {fileID: 8616236965151708188, guid: 8c4ba8c2ddddd46059e43827e39d8fa7,
+  ProductComponentsClone: {fileID: 8616236965151708188, guid: 8c4ba8c2ddddd46059e43827e39d8fa7,
     type: 3}
 --- !u!1 &258232418
 GameObject:
@@ -985,7 +985,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.04650232, g: 0.22115234, b: 0.8962264, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -1339,7 +1339,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &577476404
 RectTransform:
   m_ObjectHideFlags: 0

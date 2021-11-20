@@ -63,7 +63,7 @@
      <Compile Include="Assets\02.Scripts\Model\DailyProduct.cs" />
      <Compile Include="Assets\02.Scripts\Model\GetDailyProducts.cs" />
      <Compile Include="Assets\02.Scripts\Model\RewardType.cs" />
-     <Compile Include="Assets\02.Scripts\View\ProductManager.cs" />
+     <Compile Include="Assets\02.Scripts\View\ProductComponents.cs" />
      <Compile Include="Assets\02.Scripts\View\ShowProduct.cs" />
      <Compile Include="Assets\05.Plugs\DOTween\Modules\DOTweenModuleAudio.cs" />
      <Compile Include="Assets\05.Plugs\DOTween\Modules\DOTweenModuleEPOOutline.cs" />
@@ -395,11 +395,11 @@
  <Reference Include="UnityEngine.XRModule">
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
  </Reference>
- <Reference Include="nunit.framework">
- <HintPath>/Users/xuda/Desktop/practiceProject/New Unity Project (1)/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
- </Reference>
  <Reference Include="DOTween">
  <HintPath>/Users/xuda/Desktop/practiceProject/New Unity Project (1)/Assets/05.Plugs/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Users/xuda/Desktop/practiceProject/New Unity Project (1)/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
