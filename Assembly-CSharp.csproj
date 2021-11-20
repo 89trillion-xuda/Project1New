@@ -753,6 +753,10 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
  </Reference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\05.Plugs\DOTween_1_2_632.zip" />
+    <Content Include="Assets\05.Plugs\DOTween_1_2_632.zip.meta" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
