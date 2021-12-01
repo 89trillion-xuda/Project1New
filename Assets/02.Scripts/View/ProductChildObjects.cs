@@ -9,7 +9,7 @@ namespace ProductsView
     /// <summary>
     /// 获取 商品预制体中 一些需要动态改变的 子对象的克隆
     /// </summary>
-    public class ProductComponents : MonoBehaviour
+    public class ProductChildObjects : MonoBehaviour
     {
         //获取卡片背景对象
         [SerializeField] private GameObject sellContentBgImg;

@@ -38,7 +38,7 @@ namespace ProductsView
                     GameObject coinObject = GameObject.Instantiate(coinObjectClone, transform);
                     
                     //得到当前对象下的 子对象集合类
-                    ProductComponents components = coinObject.GetComponent<ProductComponents>();
+                    ProductChildObjects components = coinObject.GetComponent<ProductChildObjects>();
                     
                     //调用初始化函数
                     components.setInit(dailyProducts[i].Type, 

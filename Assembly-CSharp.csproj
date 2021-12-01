@@ -63,7 +63,7 @@
      <Compile Include="Assets\02.Scripts\Model\DailyProduct.cs" />
      <Compile Include="Assets\02.Scripts\Model\GetDailyProducts.cs" />
      <Compile Include="Assets\02.Scripts\Model\RewardType.cs" />
-     <Compile Include="Assets\02.Scripts\View\ProductComponents.cs" />
+     <Compile Include="Assets\02.Scripts\View\ProductChildObjects.cs" />
      <Compile Include="Assets\02.Scripts\View\ShowProduct.cs" />
      <Compile Include="Assets\05.Plugs\DOTween\Modules\DOTweenModuleAudio.cs" />
      <Compile Include="Assets\05.Plugs\DOTween\Modules\DOTweenModuleEPOOutline.cs" />
