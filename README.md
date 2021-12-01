@@ -49,7 +49,7 @@
 | 实体类：DailyProduct.cs            | 对应售卖实体类的字段映射                           | 位于Model下      |
 | 实体类：GetDailyProduct.cs         | 通过SImpleJson解析Json数据，得到商品信息           | 位于Model下      |
 | 视图层：ShowProduct.cs             | 用于控制对应显示的商品信息                         | 位于View下       |
-| 视图层：ProductManager.cs          | 用于获得商品预制体中需要动态改变的一些组件对象     | 位于View下       |
+| 视图层：ProductChildObjects.cs     | 用于获得商品预制体中需要动态改变的预制体子对象      | 位于View下       |
 | 控制层：ViewSkipController.cs      | 控制各个按钮的视图跳转                             | 位于Controller下 |
 | 控制层：CoinFlyAnimitionController | 用于控制飞金币动画对象的显示、位置和数量等实现逻辑 | 位于Controller下 |
 
